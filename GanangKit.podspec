@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name           = "GanangKit"
-  spec.version        = "0.0.5"
+  spec.version        = "0.0.6"
   spec.summary        = "Your Companion Framework"
   spec.description    = "Just in case you need this framework"
   spec.author         = { "GanangKit Team" => "team@ganangkit.com" }
