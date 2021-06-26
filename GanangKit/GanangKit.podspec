@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.author         = { "GanangKit Team" => "team@ganangkit.com" }
   spec.homepage       = "http://github.com"
   spec.license        = "MIT"
-  spec.source         = { :git => "https://github.com/GanangKit/GanangKit.git", :tag => "#{spec.version}" }
+  spec.source         = { :git => "https://github.com/GanangKit/GanangKit.git", :tag => spec.version.to_s  }
   spec.source_files   = "GanangKit/*swift"
   spec.platform       = :ios, "10.0"
   spec.swift_version  = '5.0'
